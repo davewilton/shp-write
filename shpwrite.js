@@ -13123,7 +13123,7 @@ module.exports.polygon = justType('Polygon', 'POLYGON');
 function justType(type, TYPE) {
     return function(gj) {
       var oftype = gj.features.filter(isType(type));
-      if(TYPE == "POLYLINE"){
+      if(TYPE == "POLYLINE" || TYPE == "POLYGON"){
         geometries = oftype.map(function(t) { return [justCoords(t)]; });
       }else{
         geometries = oftype.map(justCoords);
