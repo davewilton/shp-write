@@ -6,4 +6,4 @@ Clone of shp-write mintenance and fixes issues in that. Tested with points lines
 
 https://github.com/hwbllmnn/shp-write/tree/maintenance
 
-compiled version shpwirte.js
+compiled version shpwrite.js
